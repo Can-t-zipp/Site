@@ -16,12 +16,12 @@ body {
 
 @font-face {
     font-family: "Helvetica Neue LT Std";
-    src: url(../FONTS/Helvetica/Medium/Medium.otf);
+    src: url(FONTS/Helvetica/Medium/Medium.otf);
 }
 
 @font-face {
     font-family: "Miracle";
-    src: url(../FONTS/Miracle/Miracle_Personal_use.ttf);
+    src: url(FONTS/Miracle/Miracle_Personal_use.ttf);
 }
 
 .container {
@@ -117,7 +117,7 @@ ul {
 }
 
 .form {
-    background-image: url(../IMG/formbc.png);
+    background-image: url(IMG/formbc.png);
     background-repeat: no-repeat;
     height: 781px;
     display: flex;
@@ -387,7 +387,7 @@ grid-column-start: 2;
 }
 
 .apartments {
-    background: url(../IMG/space-bed.png);
+    background: url(IMG/space-bed.png);
     background-repeat: no-repeat;
     color: var(--Secondary-color, #FCD043);
 }
@@ -700,7 +700,7 @@ input {
     }
 
     .form {
-        background-image: url(../IMG/375bc1.png);
+        background-image: url(IMG/375bc1.png);
         height: 426px;
     }
 
