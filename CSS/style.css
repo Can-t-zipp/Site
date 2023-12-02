@@ -16,12 +16,12 @@ body {
 
 @font-face {
     font-family: "Helvetica Neue LT Std";
-    src: url(FONTS/Helvetica/Medium/Medium.otf);
+    src: url(../FONTS/Helvetica/Medium/Medium.otf);
 }
 
 @font-face {
     font-family: "Miracle";
-    src: url(FONTS/Miracle/Miracle_Personal_use.ttf);
+    src: url(../FONTS/Miracle/Miracle_Personal_use.ttf);
 }
 
 .container {
@@ -57,7 +57,7 @@ ul {
 
 .button-group button {
     width: 20%;
-    height: 19%;
+    height: 140px;
     flex-basis: 50%;
     opacity: 0.9;
     background: rgba(49, 63, 56, 0.48);
@@ -117,7 +117,7 @@ ul {
 }
 
 .form {
-    background-image: url(IMG/formbc.png);
+    background-image: url(../IMG/formbc.png);
     background-repeat: no-repeat;
     height: 781px;
     display: flex;
@@ -387,7 +387,7 @@ grid-column-start: 2;
 }
 
 .apartments {
-    background: url(IMG/space-bed.png);
+    background: url(../IMG/space-bed.png);
     background-repeat: no-repeat;
     color: var(--Secondary-color, #FCD043);
 }
@@ -500,11 +500,15 @@ footer {
 .footer-nav {
     display: flex;
     column-gap: 10%;
+    margin-top: 16%;
 }
+.footer-nav ul
+{margin: 0;}
 .footer-wrap{
     display: grid;
     grid-template-columns: 46% 22% 32%;
-    grid-template-rows: 163px 239px 340px 260px;
+    grid-template-rows: 170px 224px 347px 260px;
+    padding-top: 294px;
 }
 .footer-wrap h1 {
 font-family: Miracle;
@@ -536,6 +540,23 @@ grid-row-start: 2;
 .footer-wrap-h1-2{
     grid-row-start: 4;
     grid-column: 2/span 2;
+}
+.booking-section{
+    margin-top: 6%;
+}
+.booking-section .button-group{
+    height: 140px;
+    width: 49%;
+}
+.booking-section button{
+    border: 1px solid #1B3B36;
+    background-color: #FFFCF6;
+    color: #1B3B36;
+}
+.booking-section p{
+font-size: 26px;
+text-transform: uppercase;
+margin-bottom: 3%;   
 }
 
 .footer-nav h2 {
@@ -700,7 +721,7 @@ input {
     }
 
     .form {
-        background-image: url(IMG/375bc1.png);
+        background-image: url(../IMG/375bc1.png);
         height: 426px;
     }
 
