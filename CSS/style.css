@@ -761,7 +761,7 @@ input {
     .section__about {
         display: grid;
         grid-template-columns: 154px 136px 65px;
-        grid-template-rows: 110px 79px 429px 50px 148px;
+        grid-template-rows: 110px 79px 410px 50px 148px;
         margin-top: 25%;
     }
     .section__about-img-1{
@@ -778,7 +778,7 @@ input {
     }
     .section__about-h2{
         grid-row-start: 4;
-        grid-column-start: 1;
+        grid-column: 1/4;
         font-size: 28px;
         line-height: 60px; /* 100% */
     text-transform: capitalize;
@@ -787,8 +787,19 @@ input {
         grid-column: 1/span 2;
         grid-row-start: 5;
         color: var(--White, #FFFCF6);
-    font-size: 18px;
+    font-size: 13px;
     max-width: 427px;
+    }
+    .gallary{
+        margin-top: 79px;
+    }
+    .title-wrap{
+        padding-top: 117px;
+        row-gap: 50px;
+    }
+    .title-wrap p {
+font-size: 12px;
+max-width: 150px;
     }
     .gallary h1{
         width: 394px;
