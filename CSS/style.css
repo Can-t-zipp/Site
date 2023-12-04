@@ -948,7 +948,7 @@ grid-row-start: 5;
         margin-bottom: 22%;
     }
     .facilities-p-1{
-font-size: 16px;
+font-size: 13px;
 line-height: normal;
 grid-column-start: 4;
 grid-row-start: 1;
@@ -1021,8 +1021,14 @@ grid-template-rows: 190px 25px;
     .gallary-drop{
         margin-bottom: 2%;
     }
+    .apartments{
+        background-image: url(../IMG/best\ apartments.png);
+    }
     .apartments h1{
         padding-top: 70px;
+    }
+    .apartments p {
+
     }
     .drop img:nth-of-type(1){
         grid-column-start: 2;
@@ -1110,6 +1116,9 @@ line-height: 84px; /* 100% */
     .footer-wrap-h1 {
         grid-row-start: 3;
         grid-column: 1/span 2;
+    }
+    .copyright{
+        display: inline;
     }
     
     .footer-wrap-h1-2 {
