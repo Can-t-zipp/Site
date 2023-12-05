@@ -884,6 +884,13 @@ max-width: 250px;
     .footer-nav p:nth-child(2){
 font-size: 13px;
 line-height: 23px; /* 176.923% */
+max-width: 231px;
+    }
+    .footer-nav h2{
+        font-size: 18px;
+    }
+    input{
+        height: 50px;
     }
     .header .number,
     .section__about-img-3,
