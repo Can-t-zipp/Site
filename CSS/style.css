@@ -587,12 +587,16 @@ footer {
     grid-row-start: 2;
 }
 
+.footer-wrap-img-2 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    max-width: 100%;
+}
 .footer-wrap-img {
     grid-row: 3/ span 2;
     grid-column-start: 3;
     max-width: 100%;
 }
-
 .footer-wrap-h1 {
     grid-row-start: 3;
     grid-column: 1/span 2;
@@ -1181,7 +1185,9 @@ line-height: 84px; /* 100% */
         grid-column-start: 5;
         grid-row-start: 4;
     }
-   
+   .footer{
+    padding-bottom: 38%;
+   }
    
     .drop img:nth-of-type(2),
     .header .number,
