@@ -89,7 +89,7 @@ ul {
 .section__card h1 {
     font-family: "Miracle";
     color: #FFFCF6;
-    font-size: 220px;
+    font-size: 11.458vw;
     line-height: 200px;
     /* 90.909% */
 }
@@ -590,7 +590,6 @@ footer {
 .footer-wrap-img-2 {
     grid-row-start: 3;
     grid-column-start: 2;
-    max-width: 100%;
 }
 .footer-wrap-img {
     grid-row: 3/ span 2;
@@ -692,11 +691,14 @@ input {
     margin: 0 auto;
 }
 
-/* */
+/*media */
 @media screen and (max-width: 1440px) {
+    .gallary h1{
+        font-size: 125px;
+        line-height: 105px; /* 84% */
+    }
     .section__about {
-        display: grid;
-        grid-template-columns: 403px 50px 139px 216px 300px 55px 237px;
+        grid-template-columns: 28% 3% 10% 15% 21% 4% 19%;
         grid-template-rows: 62px 85px 193px 36px 108px 34px 30px 150px;
         margin-top: 5%;
     }
@@ -711,10 +713,8 @@ input {
         grid-row: 3/4;
         color: #FCD043;
         text-align: right;
-        font-family: Miracle;
         font-size: 125px;
         line-height: 105px;
-        text-transform: uppercase;
     }
 
     .section__about-h2 {
@@ -750,8 +750,7 @@ input {
 
 @media screen and (max-width: 1024px) {
     .section__about {
-        display: grid;
-        grid-template-columns: 179px 178px 145px 267px 215px;
+        grid-template-columns: repeat(2,17%) 14% repeat(2,26%);
         grid-template-rows: repeat(2, 55px) 157px 88px 34px 30px 137px;
         margin-top: 5%;
     }
@@ -763,28 +762,21 @@ input {
     .section__about-h1 {
         grid-column: 2/4;
         grid-row-start: 3;
-        color: #FCD043;
         text-align: right;
-        font-family: Miracle;
         font-size: 100px;
         line-height: 80px;
-        text-transform: uppercase;
     }
 
     .section__about-h2 {
         grid-row-start: 5;
-        color: var(--White, #FFFCF6);
-        font-family: Miracle;
         font-size: 28px;
         line-height: normal;
         letter-spacing: 0.84px;
-        text-transform: capitalize;
     }
 
     .section__about-p {
         grid-column-start: 4;
         grid-row-start: 7;
-        color: var(--White, #FFFCF6);
         font-size: 13px;
         line-height: 23px;
         max-width: 270px;
