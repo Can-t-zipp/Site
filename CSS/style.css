@@ -756,6 +756,9 @@ input {
     .burger{
         display: inline;
     }
+    .form{
+        align-items: flex-end;
+    }
     .section__about {
         grid-template-columns: repeat(2,17%) 14% repeat(2,26%);
         grid-template-rows: repeat(2, 55px) 157px 88px 34px 30px 137px;
@@ -891,6 +894,13 @@ max-width: 231px;
     }
     input{
         height: 50px;
+    }
+    .button-group button{
+        height: 100px;
+        font-size: 14px;
+    }
+    .footer-wrap{
+        
     }
     .header .number,
     .section__about-img-3,
