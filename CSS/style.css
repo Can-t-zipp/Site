@@ -900,7 +900,21 @@ max-width: 231px;
         font-size: 14px;
     }
     .footer-wrap{
-        
+        grid-template-columns: ;
+        grid-template-rows: ;
+    }
+    .footer-wrap h1{
+font-size: 14px;
+line-height: 20px; /* 142.857% */
+    }
+    .footer-wrap-p-1{
+        font-size: 38px;
+       
+    }
+    .footer-wrap-p-2{
+        font-size: 18px;
+        max-width: 175px;
+       
     }
     .header .number,
     .section__about-img-3,
