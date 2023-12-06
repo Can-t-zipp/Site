@@ -591,6 +591,7 @@ footer {
 .footer-wrap-img-2 {
     grid-row-start: 3;
     grid-column-start: 2;
+    max-width: 100%;
 }
 .footer-wrap-img {
     grid-row: 3/ span 2;
@@ -799,6 +800,10 @@ input {
 font-size: 36px;
 letter-spacing: 1.08px;
     }
+    .appeal h1{
+font-size: 100px;
+line-height: 80px; /* 80% */
+    }
     .gallary-wrap{
         grid-template-columns: 25% 37% 38%;
     grid-template-rows: 124px 66px 161px 100px 19px;
@@ -842,7 +847,7 @@ grid-row-start: 5;
         grid-column-start: 4;
 text-align: right;
 font-size: 18px;
-max-width: 200px;
+max-width: 158px;
     }
     .facilities-img-3{
         grid-row-start: 2;
@@ -900,21 +905,32 @@ max-width: 231px;
         font-size: 14px;
     }
     .footer-wrap{
-        grid-template-columns: ;
-        grid-template-rows: ;
+        grid-template-columns: 45% 6% 4% 10% 23% 12%;
+        grid-template-rows: 98px 144px 23px 149px 106px;
     }
     .footer-wrap h1{
-font-size: 14px;
-line-height: 20px; /* 142.857% */
+        font-size: 120px;
+        line-height: 150px; /* 100% */
     }
     .footer-wrap-p-1{
         font-size: 38px;
-       
+        line-height: normal;
     }
     .footer-wrap-p-2{
         font-size: 18px;
         max-width: 175px;
-       
+       grid-column-start: 5;
+    }
+    .footer-wrap-h1-2{
+grid-row-start: 5;
+grid-column-start: 3;
+    }
+    .footer-wrap-img{
+grid-row: 3/span 3;
+grid-column-start: 5;
+    }
+    .footer-wrap-img-2{
+        grid-row-start: 4;
     }
     .header .number,
     .section__about-img-3,
