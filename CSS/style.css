@@ -86,7 +86,7 @@ ul {
     font-size: 16.3px;
 }
 
-.section__card h1 {
+.section-card h1 {
     font-family: "Miracle";
     color: #FFFCF6;
     font-size: 11.458vw;
@@ -94,13 +94,13 @@ ul {
     /* 90.909% */
 }
 
-.section__card p:nth-of-type(1) {
+.section-card p:nth-of-type(1) {
     font-size: 26px;
     text-transform: uppercase;
     align-self: end;
 }
 
-.section__card p:last-of-type {
+.section-card p:last-of-type {
     font-size: 18px;
     line-height: 26px;
     /* 162.5% */
@@ -109,7 +109,7 @@ ul {
     margin-right: 233px;
 }
 
-.section__card {
+.section-card {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -151,11 +151,11 @@ span {
     color: #FCD043;
 }
 
-.section__book {
+.section-book {
     margin-bottom: 31px;
 }
 
-.section__book img {
+.section-book img {
     width: 100%;
 }
 
@@ -172,11 +172,11 @@ span {
     text-align: right;
 }
 
-.description--section {
+.description-section {
     text-decoration-line: underline;
 }
 
-.section__about {
+.section-about {
     display: grid;
     grid-template-columns: 32% 10% 26% 10% 5% 2% 15%;
     grid-template-rows: 94px 172px 242px 195px 60px 41px 104px 36px;
@@ -184,14 +184,14 @@ span {
     color: var(--White, #FFFCF6);
 }
 
-.section__about-img-1 {
+.section-about-img-1 {
     grid-row: 2/8;
     max-width: 100%;
 }
-.section__about-img-1:nth-of-type(2){
+.section-about-img-1:nth-of-type(2){
     display: none;
 }
-.section__about-h1 {
+.section_-about-h1 {
     grid-column: 3/span 1;
     grid-row: 3/4;
     text-align: right;
@@ -202,7 +202,7 @@ span {
     text-transform: uppercase;
 }
 
-.section__about-h2 {
+.section-about-h2 {
     grid-column: 3/span 1;
     grid-row: -5/span 1;
     font-family: Miracle;
@@ -213,7 +213,7 @@ span {
     text-transform: capitalize;
 }
 
-.section__about-p {
+.section-about-p {
     grid-column: 3/span 1;
     grid-row: -3/span 2;
     font-size: 18px;
@@ -222,13 +222,13 @@ span {
     max-width: 443px;
 }
 
-.section__about-img-2 {
+.section-about-img-2 {
     grid-column: 5/span 3;
     grid-row: 1/span 3;
     max-width: 100%;
 }
 
-.section__about-img-3 {
+.section-about-img-3 {
     grid-column: 7/span 1;
     grid-row: 5/span 3;
     max-width: 100%;
@@ -503,7 +503,7 @@ div.gallary-drop>div:nth-child(2) {
 .appeal__wrap__img-6, .appeal__wrap__img-7, .appeal__wrap__img-8{
     display: none;
 }
-.appel__wrap__p-1 {
+.appeal__wrap__p-1 {
     grid-column-start: 3;
     color: var(--White, #FFFCF6);
     text-align: center;
@@ -533,7 +533,7 @@ div.gallary-drop>div:nth-child(2) {
     max-width: 8%;
 }
 
-.appel__wrap__p-2 {
+.appeal__wrap__p-2 {
     grid-column-start: 3;
     grid-row-start: 4;
     color: var(--White, #FFFCF6);
@@ -699,18 +699,18 @@ input {
         font-size: 125px;
         line-height: 105px; /* 84% */
     }
-    .section__about {
+    .section-about {
         grid-template-columns: 28% 3% 10% 15% 21% 4% 19%;
         grid-template-rows: 62px 85px 193px 36px 108px 34px 30px 150px;
         margin-top: 5%;
     }
 
-    .section__about-img-1 {
+    .section-about-img-1 {
         grid-column: 1/3;
         grid-row: 2/8;
     }
 
-    .section__about-h1 {
+    .section-about-h1 {
         grid-column: 2/span 3;
         grid-row: 3/4;
         color: #FCD043;
@@ -719,7 +719,7 @@ input {
         line-height: 105px;
     }
 
-    .section__about-h2 {
+    .section-about-h2 {
         grid-row-start: 6;
         grid-column-start: 4;
         color: var(--White, #FFFCF6);
@@ -730,7 +730,7 @@ input {
         text-transform: capitalize;
     }
 
-    .section__about-p {
+    .section-about-p {
         grid-column: 4/span 2;
         grid-row-start: 8;
         color: var(--White, #FFFCF6);
@@ -739,12 +739,12 @@ input {
         max-width: 427px;
     }
 
-    .section__about-img-2 {
+    .section-about-img-2 {
         grid-column: 6/span 2;
         grid-row: 1/span 4;
     }
 
-    .section__about-img-3 {
+    .section-about-img-3 {
         grid-column-start: 7;
         grid-row-start: 7;
     }
@@ -760,17 +760,17 @@ input {
     .form{
         align-items: flex-end;
     }
-    .section__about {
+    .section-about {
         grid-template-columns: repeat(2,17%) 14% repeat(2,26%);
         grid-template-rows: repeat(2, 55px) 157px 88px 34px 30px 137px;
         margin-top: 5%;
     }
 
-    .section__about-img-1 {
+    .section-about-img-1 {
         grid-row: 2/span 6;
     }
 
-    .section__about-h1 {
+    .section-about-h1 {
         grid-column: 2/4;
         grid-row-start: 3;
         text-align: right;
@@ -778,14 +778,14 @@ input {
         line-height: 80px;
     }
 
-    .section__about-h2 {
+    .section-about-h2 {
         grid-row-start: 5;
         font-size: 28px;
         line-height: normal;
         letter-spacing: 0.84px;
     }
 
-    .section__about-p {
+    .section-about-p {
         grid-column-start: 4;
         grid-row-start: 7;
         font-size: 13px;
@@ -793,7 +793,7 @@ input {
         max-width: 270px;
     }
 
-    .section__about-img-2 {
+    .section-about-img-2 {
         grid-column-start: 5;
     }
     .drop{
@@ -933,7 +933,7 @@ grid-column-start: 5;
         grid-row-start: 4;
     }
     .header .number,
-    .section__about-img-3,
+    .section-about-img-3,
     .gallary-wrap-img-1,
     .facilities-img-2,
     .mark {
@@ -946,31 +946,29 @@ grid-column-start: 5;
         font-size: 16px;
     }
 
-    .section__card h1 {
+    .section-card h1 {
         font-size: 80px;
         line-height: normal;
         margin-bottom: 10px;
     }
-
-   
 
     .form {
         background-image: url(../IMG/375bc1.png);
         height: 426px;
     }
 
-    .section__card {
+    .section-card {
         justify-content: center;
         margin-bottom: 34px;
     }
 
-    .section__card p:nth-of-type(1) {
+    .section-card p:nth-of-type(1) {
         font-size: 12px;
         text-align: center;
         margin-bottom: 34px;
     }
 
-    .section__card p:nth-of-type(2) {
+    .section-card p:nth-of-type(2) {
         font-size: 14px;
         max-width: 280px;
         margin: 0;
@@ -986,22 +984,22 @@ grid-column-start: 5;
         max-width: 30%;
     }
 
-    .section__about {
+    .section-about {
         display: grid;
         grid-template-columns: 154px 136px 65px;
         grid-template-rows: 110px 79px 410px 65px 148px;
         margin-top: 25%;
     }
-    .section__about-img-1:first-of-type {
+    .section-about-img-1:first-of-type {
         display: none;
     }
-    .section__about-img-1:nth-of-type(2){
+    .section-about-img-1:nth-of-type(2){
         display: inline;
         grid-column: 1/span 3;
         grid-row-start: 3;
     }
 
-    .section__about-h1 {
+    .section-about-h1 {
         grid-column: 1/span 2;
         grid-row-start: 1;
         color: #FCD043;
@@ -1011,7 +1009,7 @@ grid-column-start: 5;
         text-transform: uppercase;
     }
 
-    .section__about-h2 {
+    .section-about-h2 {
         grid-row-start: 4;
         grid-column: 1/4;
         font-size: 28px;
@@ -1020,7 +1018,7 @@ grid-column-start: 5;
         text-transform: capitalize;
     }
 
-    .section__about-p {
+    .section-about-p {
         grid-column: 1/span 2;
         grid-row-start: 5;
         color: var(--White, #FFFCF6);
@@ -1249,13 +1247,13 @@ grid-template-rows: 190px 25px;
     max-width: 100%;
 }
 
-.appel__wrap__p-1 {
+.appeal__wrap__p-1 {
     grid-column: 1/ span 7;
     font-size: 13px;
     line-height: 23px;
     width: 368px;
 }
-.appel__wrap__p-2 {
+.appeal__wrap__p-2 {
     line-height: normal;
     font-size: 16px;
     grid-column: 1/ span 5;
@@ -1334,8 +1332,8 @@ line-height: 84px; /* 100% */
 
     .mark,.booking-section,
     .button-group,
-    .description--section,
-    .section__about-img-2,
+    .description-section,
+    .section-about-img-2,
     .footer-nav {
         display: none;
     }
