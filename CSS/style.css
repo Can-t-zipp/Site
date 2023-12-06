@@ -427,7 +427,7 @@ div.gallary-drop>div:nth-child(2) {
     background: url(../IMG/bx1920.webp);
     background-repeat: no-repeat;
     color: var(--Secondary-color, #FCD043);
-    padding-bottom: 7%;
+    padding-bottom: 20%;
 }
 
 .apartments h1 {
@@ -494,7 +494,7 @@ div.gallary-drop>div:nth-child(2) {
 .appeal__wrap__img-6, .appeal__wrap__img-7, .appeal__wrap__img-8{
     display: none;
 }
-.appeal__wrap__p-1 {
+.appeal__wrap-p-1 {
     grid-column-start: 3;
     color: var(--White, #FFFCF6);
     text-align: center;
