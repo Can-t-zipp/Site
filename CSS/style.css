@@ -63,7 +63,7 @@ ul {
 }
 .button-group button ul{
     width: 100%;
-    color: #FCD043;
+    color: #FFFCF6;
     background-color: #1B3B36;
     position: absolute;
     left: 0;
@@ -74,7 +74,6 @@ ul {
 }
 .button-group button ul li{
 padding: 10px;
-border-top: 1px solid #FFFCF6;
 }
 .button-group button {
     width: 20%;
